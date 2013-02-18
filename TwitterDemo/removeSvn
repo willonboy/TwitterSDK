@@ -1,0 +1,8 @@
+cd /Users/zhangtao/Desktop/TwitterDemo/
+ls -all
+echo "Start Delete======================================================"
+#find . -type d -name .svn -delete
+#find . -type f -name .DS_Store -delete
+find . -type d -name '.svn' | xargs rm -rf
+echo "End Delete  ======================================================"
+ls -all
