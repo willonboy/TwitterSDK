@@ -18,7 +18,6 @@
 		4902D58916B9162200CED046 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4902D58816B9162200CED046 /* Default-568h@2x.png */; };
 		4902D5E416B9175A00CED046 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4902D5E216B9175A00CED046 /* MainViewController.m */; };
 		4902D5E516B9175A00CED046 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4902D5E316B9175A00CED046 /* MainViewController.xib */; };
-		490D3CB316D8D2C800EAEFC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4902D57416B9162200CED046 /* Foundation.framework */; };
 		494D8AEB16BF7F9500F5E44E /* WZTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE516BF7F9500F5E44E /* WZTwitter.m */; };
 		494D8AEC16BF7F9500F5E44E /* WZTWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE816BF7F9500F5E44E /* WZTWRequest.m */; };
 		494D8AED16BF7F9500F5E44E /* WZTWUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AEA16BF7F9500F5E44E /* WZTWUtility.m */; };
@@ -28,60 +27,8 @@
 		494D8B0316BF8CE500F5E44E /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494D8B0116BF8CE500F5E44E /* close@2x.png */; };
 		494D8B0516BF8D1000F5E44E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494D8B0416BF8D1000F5E44E /* CFNetwork.framework */; };
 		494D8B0716BF8D1500F5E44E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494D8B0616BF8D1500F5E44E /* QuartzCore.framework */; };
-		49E17A1E16DC479900CB3871 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494D8B0616BF8D1500F5E44E /* QuartzCore.framework */; };
-		49E17A2016DC47A000CB3871 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494D8B0416BF8D1000F5E44E /* CFNetwork.framework */; };
-		49E17A2116DC47AC00CB3871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4902D57616B9162200CED046 /* CoreGraphics.framework */; };
-		49E17A2216DC47B600CB3871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4902D57216B9162200CED046 /* UIKit.framework */; };
-		49E17A2316DC4C2B00CB3871 /* WZTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE516BF7F9500F5E44E /* WZTwitter.m */; };
-		49E17A2416DC4C2B00CB3871 /* WZTWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE816BF7F9500F5E44E /* WZTWRequest.m */; };
-		49E17A2516DC4C2B00CB3871 /* WZTWUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AEA16BF7F9500F5E44E /* WZTWUtility.m */; };
-		49E17A2616DC4C2B00CB3871 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F8985016C12B6600958A62 /* GTMBase64.m */; };
-		49E17A2716DC4C2B00CB3871 /* AlertOauthPageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AF316BF806600F5E44E /* AlertOauthPageAnimation.m */; };
-		49E17A2816DC4C2B00CB3871 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AFA16BF88F100F5E44E /* JSONKit.m */; };
-		49E17A2F16DC518A00CB3871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4902D57216B9162200CED046 /* UIKit.framework */; };
-		49E17A3016DC518A00CB3871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4902D57416B9162200CED046 /* Foundation.framework */; };
-		49E17A3116DC518A00CB3871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4902D57616B9162200CED046 /* CoreGraphics.framework */; };
-		49E17A3716DC518A00CB3871 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49E17A3516DC518A00CB3871 /* InfoPlist.strings */; };
-		49E17A3916DC518A00CB3871 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E17A3816DC518A00CB3871 /* main.m */; };
-		49E17A3D16DC518A00CB3871 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E17A3C16DC518A00CB3871 /* AppDelegate.m */; };
-		49E17A3F16DC518A00CB3871 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E17A3E16DC518A00CB3871 /* Default.png */; };
-		49E17A4116DC518A00CB3871 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E17A4016DC518A00CB3871 /* Default@2x.png */; };
-		49E17A4316DC518B00CB3871 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E17A4216DC518A00CB3871 /* Default-568h@2x.png */; };
-		49E17A4716DC51A700CB3871 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494D8B0416BF8D1000F5E44E /* CFNetwork.framework */; };
-		49E17A4816DC51AE00CB3871 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494D8B0616BF8D1500F5E44E /* QuartzCore.framework */; };
-		49E17A4916DC51C800CB3871 /* WZTwitter.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE416BF7F9500F5E44E /* WZTwitter.h */; };
-		49E17A4A16DC51C800CB3871 /* WZTWConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE616BF7F9500F5E44E /* WZTWConfig.h */; };
-		49E17A4B16DC51C800CB3871 /* WZTWRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE716BF7F9500F5E44E /* WZTWRequest.h */; };
-		49E17A4C16DC51C800CB3871 /* WZTWUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE916BF7F9500F5E44E /* WZTWUtility.h */; };
-		49E17A4D16DC51C800CB3871 /* GTMBase64.h in Sources */ = {isa = PBXBuildFile; fileRef = 49F8984F16C12B6600958A62 /* GTMBase64.h */; };
-		49E17A4E16DC51C800CB3871 /* GTMDefines.h in Sources */ = {isa = PBXBuildFile; fileRef = 49F8985316C12BCF00958A62 /* GTMDefines.h */; };
-		49E17A4F16DC51C800CB3871 /* AlertOauthPageAnimation.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AF216BF806600F5E44E /* AlertOauthPageAnimation.h */; };
-		49E17A5016DC51C800CB3871 /* JSONKit.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AF916BF88F100F5E44E /* JSONKit.h */; };
-		49E17A5416DC520700CB3871 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E17A5216DC520700CB3871 /* MainViewController.m */; };
-		49E17A5516DC520700CB3871 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E17A5316DC520700CB3871 /* MainViewController.xib */; };
-		49E17A5616DC527200CB3871 /* libWZTwitterSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490D3CB216D8D2C800EAEFC6 /* libWZTwitterSDK.a */; };
-		49E17A5C16DC912800CB3871 /* WZTwitter.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE416BF7F9500F5E44E /* WZTwitter.h */; };
-		49E17A5D16DC912800CB3871 /* WZTWConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE616BF7F9500F5E44E /* WZTWConfig.h */; };
-		49E17A5E16DC912800CB3871 /* WZTWRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE716BF7F9500F5E44E /* WZTWRequest.h */; };
-		49E17A5F16DC912800CB3871 /* WZTWUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AE916BF7F9500F5E44E /* WZTWUtility.h */; };
-		49E17A6016DC912800CB3871 /* GTMBase64.h in Sources */ = {isa = PBXBuildFile; fileRef = 49F8984F16C12B6600958A62 /* GTMBase64.h */; };
-		49E17A6116DC912800CB3871 /* GTMDefines.h in Sources */ = {isa = PBXBuildFile; fileRef = 49F8985316C12BCF00958A62 /* GTMDefines.h */; };
-		49E17A6216DC912800CB3871 /* AlertOauthPageAnimation.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AF216BF806600F5E44E /* AlertOauthPageAnimation.h */; };
-		49E17A6316DC912800CB3871 /* JSONKit.h in Sources */ = {isa = PBXBuildFile; fileRef = 494D8AF916BF88F100F5E44E /* JSONKit.h */; };
 		49F8985116C12B6700958A62 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F8985016C12B6600958A62 /* GTMBase64.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		490D3CB016D8D2C800EAEFC6 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4902D56E16B9162200CED046 /* TwitterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,8 +47,6 @@
 		4902D5E116B9175A00CED046 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4902D5E216B9175A00CED046 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4902D5E316B9175A00CED046 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		490D3CB216D8D2C800EAEFC6 /* libWZTwitterSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWZTwitterSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		490D3CB616D8D2C800EAEFC6 /* WZTwitterSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WZTwitterSDK-Prefix.pch"; sourceTree = "<group>"; };
 		494D8AE416BF7F9500F5E44E /* WZTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTwitter.h; sourceTree = "<group>"; };
 		494D8AE516BF7F9500F5E44E /* WZTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZTwitter.m; sourceTree = "<group>"; };
 		494D8AE616BF7F9500F5E44E /* WZTWConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTWConfig.h; sourceTree = "<group>"; };
@@ -117,19 +62,6 @@
 		494D8B0116BF8CE500F5E44E /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
 		494D8B0416BF8D1000F5E44E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		494D8B0616BF8D1500F5E44E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		49E17A2D16DC518A00CB3871 /* WZTwitterSDKLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZTwitterSDKLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		49E17A3416DC518A00CB3871 /* WZTwitterSDKLibDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WZTwitterSDKLibDemo-Info.plist"; sourceTree = "<group>"; };
-		49E17A3616DC518A00CB3871 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		49E17A3816DC518A00CB3871 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49E17A3A16DC518A00CB3871 /* WZTwitterSDKLibDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WZTwitterSDKLibDemo-Prefix.pch"; sourceTree = "<group>"; };
-		49E17A3B16DC518A00CB3871 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		49E17A3C16DC518A00CB3871 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		49E17A3E16DC518A00CB3871 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		49E17A4016DC518A00CB3871 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		49E17A4216DC518A00CB3871 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		49E17A5116DC520700CB3871 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		49E17A5216DC520700CB3871 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		49E17A5316DC520700CB3871 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		49F8984F16C12B6600958A62 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		49F8985016C12B6600958A62 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		49F8985316C12BCF00958A62 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
@@ -148,31 +80,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490D3CAF16D8D2C800EAEFC6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49E17A1E16DC479900CB3871 /* QuartzCore.framework in Frameworks */,
-				49E17A2016DC47A000CB3871 /* CFNetwork.framework in Frameworks */,
-				49E17A2216DC47B600CB3871 /* UIKit.framework in Frameworks */,
-				490D3CB316D8D2C800EAEFC6 /* Foundation.framework in Frameworks */,
-				49E17A2116DC47AC00CB3871 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49E17A2A16DC518A00CB3871 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49E17A5616DC527200CB3871 /* libWZTwitterSDK.a in Frameworks */,
-				49E17A4816DC51AE00CB3871 /* QuartzCore.framework in Frameworks */,
-				49E17A4716DC51A700CB3871 /* CFNetwork.framework in Frameworks */,
-				49E17A2F16DC518A00CB3871 /* UIKit.framework in Frameworks */,
-				49E17A3016DC518A00CB3871 /* Foundation.framework in Frameworks */,
-				49E17A3116DC518A00CB3871 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -180,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				4902D57816B9162200CED046 /* TwitterDemo */,
-				490D3CB416D8D2C800EAEFC6 /* WZTwitterSDK */,
-				49E17A3216DC518A00CB3871 /* WZTwitterSDKLibDemo */,
 				4902D57116B9162200CED046 /* Frameworks */,
 				4902D56F16B9162200CED046 /* Products */,
 			);
@@ -191,8 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				4902D56E16B9162200CED046 /* TwitterDemo.app */,
-				490D3CB216D8D2C800EAEFC6 /* libWZTwitterSDK.a */,
-				49E17A2D16DC518A00CB3871 /* WZTwitterSDKLibDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,22 +146,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		490D3CB416D8D2C800EAEFC6 /* WZTwitterSDK */ = {
-			isa = PBXGroup;
-			children = (
-				490D3CB516D8D2C800EAEFC6 /* Supporting Files */,
-			);
-			path = WZTwitterSDK;
-			sourceTree = "<group>";
-		};
-		490D3CB516D8D2C800EAEFC6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				490D3CB616D8D2C800EAEFC6 /* WZTwitterSDK-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		494D8AE316BF7F7000F5E44E /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,33 +161,6 @@
 				49F8985316C12BCF00958A62 /* GTMDefines.h */,
 			);
 			path = Twitter;
-			sourceTree = "<group>";
-		};
-		49E17A3216DC518A00CB3871 /* WZTwitterSDKLibDemo */ = {
-			isa = PBXGroup;
-			children = (
-				49E17A3B16DC518A00CB3871 /* AppDelegate.h */,
-				49E17A3C16DC518A00CB3871 /* AppDelegate.m */,
-				49E17A5116DC520700CB3871 /* MainViewController.h */,
-				49E17A5216DC520700CB3871 /* MainViewController.m */,
-				49E17A5316DC520700CB3871 /* MainViewController.xib */,
-				49E17A3316DC518A00CB3871 /* Supporting Files */,
-			);
-			path = WZTwitterSDKLibDemo;
-			sourceTree = "<group>";
-		};
-		49E17A3316DC518A00CB3871 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				49E17A3416DC518A00CB3871 /* WZTwitterSDKLibDemo-Info.plist */,
-				49E17A3516DC518A00CB3871 /* InfoPlist.strings */,
-				49E17A3816DC518A00CB3871 /* main.m */,
-				49E17A3A16DC518A00CB3871 /* WZTwitterSDKLibDemo-Prefix.pch */,
-				49E17A3E16DC518A00CB3871 /* Default.png */,
-				49E17A4016DC518A00CB3871 /* Default@2x.png */,
-				49E17A4216DC518A00CB3871 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,40 +181,6 @@
 			name = TwitterDemo;
 			productName = TwitterDemo;
 			productReference = 4902D56E16B9162200CED046 /* TwitterDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		490D3CB116D8D2C800EAEFC6 /* WZTwitterSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 490D3CBD16D8D2C800EAEFC6 /* Build configuration list for PBXNativeTarget "WZTwitterSDK" */;
-			buildPhases = (
-				490D3CAE16D8D2C800EAEFC6 /* Sources */,
-				490D3CAF16D8D2C800EAEFC6 /* Frameworks */,
-				490D3CB016D8D2C800EAEFC6 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WZTwitterSDK;
-			productName = WZTwitterSDK;
-			productReference = 490D3CB216D8D2C800EAEFC6 /* libWZTwitterSDK.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		49E17A2C16DC518A00CB3871 /* WZTwitterSDKLibDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 49E17A4416DC518B00CB3871 /* Build configuration list for PBXNativeTarget "WZTwitterSDKLibDemo" */;
-			buildPhases = (
-				49E17A2916DC518A00CB3871 /* Sources */,
-				49E17A2A16DC518A00CB3871 /* Frameworks */,
-				49E17A2B16DC518A00CB3871 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WZTwitterSDKLibDemo;
-			productName = WZTwitterSDKLibDemo;
-			productReference = 49E17A2D16DC518A00CB3871 /* WZTwitterSDKLibDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -379,8 +205,6 @@
 			projectRoot = "";
 			targets = (
 				4902D56D16B9162200CED046 /* TwitterDemo */,
-				490D3CB116D8D2C800EAEFC6 /* WZTwitterSDK */,
-				49E17A2C16DC518A00CB3871 /* WZTwitterSDKLibDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -397,18 +221,6 @@
 				4902D5E516B9175A00CED046 /* MainViewController.xib in Resources */,
 				494D8B0216BF8CE500F5E44E /* close.png in Resources */,
 				494D8B0316BF8CE500F5E44E /* close@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49E17A2B16DC518A00CB3871 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49E17A3716DC518A00CB3871 /* InfoPlist.strings in Resources */,
-				49E17A3F16DC518A00CB3871 /* Default.png in Resources */,
-				49E17A4116DC518A00CB3871 /* Default@2x.png in Resources */,
-				49E17A4316DC518B00CB3871 /* Default-568h@2x.png in Resources */,
-				49E17A5516DC520700CB3871 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,45 +243,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490D3CAE16D8D2C800EAEFC6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49E17A5C16DC912800CB3871 /* WZTwitter.h in Sources */,
-				49E17A5D16DC912800CB3871 /* WZTWConfig.h in Sources */,
-				49E17A5E16DC912800CB3871 /* WZTWRequest.h in Sources */,
-				49E17A5F16DC912800CB3871 /* WZTWUtility.h in Sources */,
-				49E17A6016DC912800CB3871 /* GTMBase64.h in Sources */,
-				49E17A6116DC912800CB3871 /* GTMDefines.h in Sources */,
-				49E17A6216DC912800CB3871 /* AlertOauthPageAnimation.h in Sources */,
-				49E17A6316DC912800CB3871 /* JSONKit.h in Sources */,
-				49E17A2316DC4C2B00CB3871 /* WZTwitter.m in Sources */,
-				49E17A2416DC4C2B00CB3871 /* WZTWRequest.m in Sources */,
-				49E17A2516DC4C2B00CB3871 /* WZTWUtility.m in Sources */,
-				49E17A2616DC4C2B00CB3871 /* GTMBase64.m in Sources */,
-				49E17A2716DC4C2B00CB3871 /* AlertOauthPageAnimation.m in Sources */,
-				49E17A2816DC4C2B00CB3871 /* JSONKit.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49E17A2916DC518A00CB3871 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49E17A4916DC51C800CB3871 /* WZTwitter.h in Sources */,
-				49E17A4A16DC51C800CB3871 /* WZTWConfig.h in Sources */,
-				49E17A4B16DC51C800CB3871 /* WZTWRequest.h in Sources */,
-				49E17A4C16DC51C800CB3871 /* WZTWUtility.h in Sources */,
-				49E17A4D16DC51C800CB3871 /* GTMBase64.h in Sources */,
-				49E17A4E16DC51C800CB3871 /* GTMDefines.h in Sources */,
-				49E17A4F16DC51C800CB3871 /* AlertOauthPageAnimation.h in Sources */,
-				49E17A5016DC51C800CB3871 /* JSONKit.h in Sources */,
-				49E17A3916DC518A00CB3871 /* main.m in Sources */,
-				49E17A3D16DC518A00CB3871 /* AppDelegate.m in Sources */,
-				49E17A5416DC520700CB3871 /* MainViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -477,14 +250,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				4902D57C16B9162200CED046 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		49E17A3516DC518A00CB3871 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49E17A3616DC518A00CB3871 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -577,82 +342,6 @@
 			};
 			name = Release;
 		};
-		490D3CBB16D8D2C800EAEFC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: trojan zhang (62T7LX36NS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: trojan zhang (62T7LX36NS)";
-				DSTROOT = /tmp/WZTwitterSDK.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WZTwitterSDK/WZTwitterSDK-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv7 armv7s";
-			};
-			name = Debug;
-		};
-		490D3CBC16D8D2C800EAEFC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: trojan zhang (62T7LX36NS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: trojan zhang (62T7LX36NS)";
-				DSTROOT = /tmp/WZTwitterSDK.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WZTwitterSDK/WZTwitterSDK-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv7 armv7s";
-			};
-			name = Release;
-		};
-		49E17A4516DC518B00CB3871 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: trojan zhang (62T7LX36NS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: trojan zhang (62T7LX36NS)";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WZTwitterSDKLibDemo/WZTwitterSDKLibDemo-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "WZTwitterSDKLibDemo/WZTwitterSDKLibDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
-				VALID_ARCHS = "armv7 armv7s";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		49E17A4616DC518B00CB3871 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: trojan zhang (62T7LX36NS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: trojan zhang (62T7LX36NS)";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WZTwitterSDKLibDemo/WZTwitterSDKLibDemo-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "WZTwitterSDKLibDemo/WZTwitterSDKLibDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
-				VALID_ARCHS = "armv7 armv7s";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -673,23 +362,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		490D3CBD16D8D2C800EAEFC6 /* Build configuration list for PBXNativeTarget "WZTwitterSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				490D3CBB16D8D2C800EAEFC6 /* Debug */,
-				490D3CBC16D8D2C800EAEFC6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49E17A4416DC518B00CB3871 /* Build configuration list for PBXNativeTarget "WZTwitterSDKLibDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49E17A4516DC518B00CB3871 /* Debug */,
-				49E17A4616DC518B00CB3871 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
