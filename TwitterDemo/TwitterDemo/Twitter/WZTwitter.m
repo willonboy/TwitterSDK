@@ -76,7 +76,6 @@ oauth_token_secret=PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo&user_id=123234&scr
 #define WZTW_Token_Secret               (@"TWTokenSecret")
 #define WZTW_Current_Login_UserId       (@"TWCurrentLoginUserId")
 #define WZTW_Current_Login_User_Name    (@"TWCurrentLoginUserName")
-#define WZTW_Redirect_URL               (@"http://www.willonboy.tk")
 #define WZTW_Oauth_Version              (@"1.0")
 #define WZTW_Oauth_Signature_Method     (@"HMAC-SHA1")
 
@@ -250,7 +249,7 @@ oauth_token_secret=PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo&user_id=123234&scr
         if (self.delegate && [self.delegate respondsToSelector:@selector(didLoginSuccessOrFailed:)])
         {
             [self.delegate didLoginSuccessOrFailed:NO];
-            self.webview.hidden = YES;
+                //self.webview.hidden = YES;
         }
         return;
     }

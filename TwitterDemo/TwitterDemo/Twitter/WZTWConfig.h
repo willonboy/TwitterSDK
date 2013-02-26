@@ -15,6 +15,7 @@
 #define ConsumerSecret          (@"92bYl9cm3Z2P2YOkZZNyRYe0a4FKPsl3sNCqF0mlig")
 
 
+#define WZTW_Redirect_URL               (@"http://www.willonboy.tk")
 
 
 
