@@ -1,6 +1,7 @@
 
 
 #import "WZTWUtility.h"
+#import <UIKit/UIKit.h>
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonHMAC.h>
 #import <CommonCrypto/CommonCryptor.h>

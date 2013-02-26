@@ -82,6 +82,8 @@ oauth_token_secret=PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo&user_id=123234&scr
 
 
 #import "WZTwitter.h"
+#import <UIKit/UIKit.h>
+#import "JSONKit.h"
 
 @interface WZTwitter()
 {
@@ -211,6 +213,21 @@ oauth_token_secret=PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo&user_id=123234&scr
         return;
     }
     
+    
+    /*
+     POST /oauth/request_token HTTP/1.1
+     User-Agent: themattharris' HTTP Client
+     Host: api.twitter.com
+     Accept: *\/*
+     Authorization:
+     OAuth oauth_callback="http%3A%2F%2Flocalhost%2Fsign-in-with-twitter%2F",
+     oauth_consumer_key="cChZNFj6T5R0TigYB9yd1w",
+     oauth_nonce="ea9ec8429b68d6b77cd5600adbbb0456",
+     oauth_signature="F1Li3tvehgcraF8DMJ7OyxO4w9Y%3D",
+     oauth_signature_method="HMAC-SHA1",
+     oauth_timestamp="1318467427",
+     oauth_version="1.0"
+     */
     NSMutableURLRequest* requestTokenRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:TWOauth1_0A_Request_Token_Url]];
     requestTokenRequest.HTTPMethod = @"POST";
     NSDictionary *postParasDic = [NSDictionary dictionaryWithObject:WZTW_Redirect_URL forKey:@"oauth_callback"];
@@ -470,17 +487,18 @@ oauth_token_secret=PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo&user_id=123234&scr
 {
         //所有请求的签名都必须要包含"oauth_*"健值对在内
     NSMutableDictionary *globalParas = [self AuthorizationHeaderDictionary];
+    
+    if (requestParas)
+    {
+        [globalParas addEntriesFromDictionary:requestParas];
+    }
+    
     NSArray* keys = [globalParas.allKeys sortedArrayUsingSelector:@selector(compare:)];
     NSMutableArray *arr = [NSMutableArray array];
     for (NSString *key in keys)
     {
         NSString *val = [WZTWUtility encodedURLParameterString:[globalParas valueForKey:key]];
         [arr addObject:[NSString stringWithFormat:@"%@=\"%@\"", key, val]];
-    }
-    
-    if (requestParas)
-    {
-        [globalParas addEntriesFromDictionary:requestParas];
     }
     
     NSString *signature  = [WZTWUtility generateSignature:globalParas tokenSecret:(_accessTokenSecret ? _accessTokenSecret : @"") requestUrl:requestUrl method:method];

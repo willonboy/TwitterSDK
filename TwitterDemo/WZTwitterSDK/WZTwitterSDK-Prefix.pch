@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'WZTwitterSDK' target in the 'WZTwitterSDK' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+#define SNS_Clicked_Cancel_Btn  (@"SNS_Clicked_Cancel_Btn")

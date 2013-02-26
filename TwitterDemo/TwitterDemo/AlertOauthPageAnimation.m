@@ -37,7 +37,8 @@
 
 
 #import "AlertOauthPageAnimation.h"
-#import <QuartzCore/QuartzCore.h> 
+#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
 
 
 @interface AlertOauthPageAnimation()

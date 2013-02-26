@@ -130,14 +130,22 @@
     
     if ([responseData isKindOfClass:[NSDictionary class]])
     {
-        
+            //{"errors":[{"message":"Error processing your OAuth request: Read-only application cannot POST","code":89}]}
+        NSArray *errs = [(NSDictionary *)responseData objectForKey:@"errors"];
+        if (errs && [errs count] > 0)
+        {
+            NSDictionary *firstErr = [errs objectAtIndex:0];
+            errorCode = [firstErr objectForKey:@"code"];
+            errorMsg = [firstErr objectForKey:@"message"];
+        }
     }
     
     if (errorCode)
     {
         if (self.delegate && [self.delegate respondsToSelector:@selector(requestFailed:error:)]) 
         {
-            
+            NSError *err = [NSError errorWithDomain:@"error.twitter.com" code:[errorCode integerValue] userInfo:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:errorCode, errorMsg, nil] forKeys:[NSArray arrayWithObjects:@"error_code", @"error_msg", nil]]];
+            [self.delegate performSelector:@selector(requestFailed:error:) withObject:self withObject:err];
         }
         return;
     }

@@ -10,6 +10,7 @@
 #import "WZTWConfig.h"
 #import "WZTWRequest.h"
 #import "WZTWUtility.h"
+#import <UIKit/UIKit.h>
 
 
 @protocol WZTwitterDelegate;

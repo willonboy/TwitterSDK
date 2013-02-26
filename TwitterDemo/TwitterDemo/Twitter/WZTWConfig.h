@@ -11,8 +11,8 @@
 #define TwitterDemo_WZTWConfig_h
 
 
-#define ConsumerKey             (@"O0njU9s9dXiKG7vjJrKFkQ")
-#define ConsumerSecret          (@"syoSWP4icq7r6NyTCrXdj95WWAWrxXdhxMGHt4OltoA")
+#define ConsumerKey             (@"9y1knzlIljav3luByuLTcw")
+#define ConsumerSecret          (@"92bYl9cm3Z2P2YOkZZNyRYe0a4FKPsl3sNCqF0mlig")
 
 
 
