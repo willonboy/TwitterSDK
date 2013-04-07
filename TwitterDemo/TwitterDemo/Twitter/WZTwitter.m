@@ -185,11 +185,11 @@ oauth_token_secret=PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo&user_id=123234&scr
     {
         if (tokenSecret && tokenSecret.length > 0 && ![tokenSecret isEqualToString:@"(null)"])
         {
-            _accessToken        = accessToken;
-            _accessTokenSecret  = tokenSecret;
+            _accessToken        = [accessToken retain];
+            _accessTokenSecret  = [tokenSecret retain];
             
-            _userId             = [userDefault valueForKey:WZTW_Current_Login_UserId];
-            _userScreenName     = [userDefault valueForKey:WZTW_Current_Login_User_Name];
+            _userId             = [[userDefault valueForKey:WZTW_Current_Login_UserId] retain];
+            _userScreenName     = [[userDefault valueForKey:WZTW_Current_Login_User_Name] retain];
             return YES;
         }
     }
