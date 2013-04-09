@@ -350,7 +350,9 @@ oauth_token_secret=PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo&user_id=123234&scr
 {
     NSString *api = @"statuses/update_with_media.json" ;
     NSString *requestUrlStr = [NSString stringWithFormat:@"%@%@", TWAPI_1_1_ServerBaseUrl, api];
-    NSString *authorizationStr = [self AuthorizationHeaderValue:nil requestUrl:requestUrlStr method:@"POST"];
+    NSMutableDictionary *queryParas = [NSMutableDictionary dictionary];
+    [queryParas setValue:content forKey:@"status"];
+    NSString *authorizationStr = [self AuthorizationHeaderValue:queryParas requestUrl:requestUrlStr method:@"POST"];
     NSMutableDictionary *bodyParas = [NSMutableDictionary dictionary];
         //twitter 内容
     [bodyParas setValue:content forKey:@"status"];
@@ -362,8 +364,9 @@ oauth_token_secret=PbKfYqSryyeKDWz4ebtY3o5ogNLG11WJuZBc9fQrQo&user_id=123234&scr
     
     
     NSMutableData *bodyData = [WZTWUtility generatePostBody:bodyParas isUploadFile:YES];
-    
-    [_request sendRequest:requestUrlStr method:@"POST" apiMethod:api allHeaderField:headers httpBody:bodyData];
+        //Fuck Twitter API Doc!!!https://dev.twitter.com/docs/api/1.1/post/statuses/update_with_media
+    NSURL *requestUrl = [WZTWUtility generateURL:requestUrlStr params:queryParas];
+    [_request sendRequest:requestUrl.absoluteString method:@"POST" apiMethod:api allHeaderField:headers httpBody:bodyData];
 }
 
 - (void)publishNewStatus:(NSString *)content;

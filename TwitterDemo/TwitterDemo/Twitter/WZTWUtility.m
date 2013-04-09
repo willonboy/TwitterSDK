@@ -52,7 +52,7 @@
                                                                                           NULL, /* allocator */
                                                                                           (CFStringRef)value,
                                                                                           NULL, /* charactersToLeaveUnescaped */
-                                                                                          (CFStringRef)@"!*'();:@&=+$,/?%#[]",
+                                                                                          (CFStringRef)@"!*'();:@&=+$,/?%#[]<> \t\n\"",
                                                                                           kCFStringEncodingUTF8);
             
             [pairs addObject:[NSString stringWithFormat:@"%@=%@", key, escaped_value]];
@@ -93,7 +93,7 @@
     NSString *result = (NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
                                                                            (CFStringRef)value,
                                                                            NULL,
-                                                                           CFSTR("!*'();:@&=+$,/?%#[]"),
+                                                                           CFSTR("!*'();:@&=+$,/?%#[]<> \t\n\""),
                                                                            kCFStringEncodingUTF8);
 	return [result autorelease];
 }
@@ -175,7 +175,7 @@
     return oauth_signature;
 }
 
-    //对字符串进行URL编码转换
+    //对字符串进行URL编码转换!*'();:@&=+$,/?%#[]<> \t\n\"
 + (NSString*)encodeString:(NSString*)string urlEncode:(NSStringEncoding)encoding 
 {
     NSMutableString *escaped = [NSMutableString string];
@@ -197,6 +197,7 @@
     [escaped replaceOccurrencesOfString:@">" withString:@"%3E" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
     [escaped replaceOccurrencesOfString:@"\"" withString:@"%22" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
     [escaped replaceOccurrencesOfString:@"\n" withString:@"%0A" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
+    [escaped replaceOccurrencesOfString:@"!" withString:@"%21" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [escaped length])];
     
     return escaped;
 }
@@ -247,7 +248,8 @@
         
         NSData *_dataParam=[_params valueForKey:@"media[]"];
         NSData *imageData = UIImagePNGRepresentation((UIImage*)_dataParam);
-        [body appendData:[[NSString stringWithFormat:@"Content-Disposition: form-data; name=\"media[]\";filename=\"media.png\""] dataUsingEncoding:NSUTF8StringEncoding]];
+        
+        [body appendData:[[NSString stringWithFormat:@"Content-Type: application/octet-stream\nContent-Disposition: form-data; name=\"media[]\";filename=\"media.png\""] dataUsingEncoding:NSUTF8StringEncoding]];
         [body appendData:[endLine dataUsingEncoding:NSUTF8StringEncoding]];
         [body appendData:[@"Content-Type:image/jpeg\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding]]; 
         

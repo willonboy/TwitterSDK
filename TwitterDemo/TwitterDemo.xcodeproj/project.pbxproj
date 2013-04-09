@@ -265,7 +265,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tao Zhang (62T7LX36NS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tao Zhang (62T7LX36NS)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -279,6 +280,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "94891E26-33EB-46D3-BDAB-620DBC126672";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "94891E26-33EB-46D3-BDAB-620DBC126672";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -291,7 +294,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tao Zhang (62T7LX36NS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tao Zhang (62T7LX36NS)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -299,6 +303,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "94891E26-33EB-46D3-BDAB-620DBC126672";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "94891E26-33EB-46D3-BDAB-620DBC126672";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -307,8 +313,8 @@
 		4902D58D16B9162200CED046 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: trojan zhang (62T7LX36NS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: trojan zhang (62T7LX36NS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tao Zhang (62T7LX36NS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tao Zhang (62T7LX36NS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwitterDemo/TwitterDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
@@ -319,8 +325,8 @@
 					"\"$(SRCROOT)/TwitterDemo/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
+				PROVISIONING_PROFILE = "94891E26-33EB-46D3-BDAB-620DBC126672";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "94891E26-33EB-46D3-BDAB-620DBC126672";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -328,6 +334,7 @@
 		4902D58E16B9162200CED046 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tao Zhang (62T7LX36NS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwitterDemo/TwitterDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
@@ -338,6 +345,7 @@
 					"\"$(SRCROOT)/TwitterDemo/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "94891E26-33EB-46D3-BDAB-620DBC126672";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

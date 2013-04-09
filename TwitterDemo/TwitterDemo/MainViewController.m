@@ -128,11 +128,11 @@
             
         case 101:
                 //[_twitter getFriendInfoList:nil];
-            [_twitter publishNewStatus:@"this is test "];
+            [_twitter publishNewStatus:@"I am in! "];
             break;
             
         case 102:
-            [_twitter publishNewPhoto:@"this is test from twitter" imgPath:[[NSBundle mainBundle] pathForResource:@"Default" ofType:@"png"]];
+            [_twitter publishNewPhoto:@"this is test from asdfasfas" imgPath:[[NSBundle mainBundle] pathForResource:@"Default" ofType:@"png"]];
             break;
             
         default:
